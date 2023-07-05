@@ -24,17 +24,19 @@ header{
     height: 75px;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
     background-color: #FF6900;
     margin-bottom: 20px;
 
 }
+
 
 .banner a {
     padding: 0 3px;
 }
 
 main {
-    width: 80%;
+    
     max-width: 1170px;
     display: flex;
     margin: auto;
@@ -174,8 +176,7 @@ h2{
 }
 .col-6 {
     width: calc(100%/12*6);
-    text-align: left;
-    padding-left: 220px;
+   
  
 
 
