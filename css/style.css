@@ -12,7 +12,13 @@ a {
     color: white;
     text-decoration: none;
 }
-
+header{
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    z-index: 1;
+    
+}
 .banner {
     display: flex;
     height: 75px;
@@ -33,6 +39,8 @@ main {
     display: flex;
     margin: auto;
     flex-wrap: wrap;
+    position: relative;
+    top: 90px;
 }
 
 .card {
@@ -51,7 +59,7 @@ main {
 }
 .img2{
     position: relative;
-    top: -48.5%;
+    top: -48.7%;
 }
 .img2:hover{
     opacity: 0;
@@ -89,7 +97,7 @@ main {
     position: relative;
     padding: 5px 7px;
     top: -55%;
-    left: -12%;
+    left: -11.5%;
 
 }
 
